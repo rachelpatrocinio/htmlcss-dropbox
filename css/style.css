@@ -75,12 +75,14 @@ body{
     padding: 15px;
 }
 
-.main-header .list-items{
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
+.main-header .logo{
+    display: block;
 }
 
+.main-header .list-items{
+    padding: 0 20px;
+    line-height: 30px;
+}
 
 /* BUTTONS */
 
@@ -88,7 +90,7 @@ button{
     border: none;
     color: #ffffff;
     background-color: #2361ff;
-    padding: 10px 15px;
+    padding: 8px 15px;
 }
 
 /* MAIN SECTION */
@@ -97,6 +99,7 @@ button{
 
 .hero{
     background-color: #b4d0e7;
+    height: calc(100vh - 100px);
 }
 
 .hero .row{
@@ -164,8 +167,11 @@ button{
     padding: 20px 0;
  }
 
-
+ .plan__cards tbody td h2 + span{
+    font-weight: 700;
+ }
 
 .plan__cards th{
    border-bottom: 1px solid lightgrey;
+   font-weight: 300;
 }
