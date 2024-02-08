@@ -70,8 +70,20 @@ body{
     width: 30%;
 }
 
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%
+}
+
 .col-70{
     width: 70%;
+}
+
+.col-100{
+    width: 100%;
 }
 
 /* HEADER */
@@ -220,12 +232,7 @@ button{
     margin: 100px 0;
 }
 
-.partner__img{
-    width: 60%;
-}
-
 .partner__description{
-    width: 40%;
     padding: 50px 40px;
 }
 
@@ -241,6 +248,10 @@ button{
 }
 
 /* BUSINESS */
+
+.business__header{
+    width: 100%;
+}
 
 .business__title{
     font-size: 30px;
