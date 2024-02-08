@@ -67,7 +67,7 @@ body{
 }
 
 .main-header .list-items{
-    padding: 0 15px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
 }
@@ -79,7 +79,7 @@ button{
     border: none;
     color: #ffffff;
     background-color: #2361ff;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 /* MAIN SECTION */
@@ -120,4 +120,14 @@ button{
 }
 
 /* Plans Section */
+
+.plans__title{
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+.plans form > *{
+    display: inline-block;
+    margin-right: 50px;
+}
 
