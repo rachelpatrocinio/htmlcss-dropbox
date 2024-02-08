@@ -29,6 +29,11 @@ body{
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
 .flex__column{
     flex-direction: column;
 }
@@ -148,36 +153,30 @@ button{
 }
 
 .plan__cards{
-    width: 30%;
-    padding: 40px 0;
+    border: 1px solid lightgrey;
+    width: 32%;
+    margin-top: 50px;
 }
 
-.plan__cards table{
-    border: 1px solid lightgrey;
-    height: 100%;
+.plan__cards-title{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.plan__cards-info span{
     display: block;
 }
 
-.plan__cards th,
-.plan__cards td{
-   padding: 15px 20px;
+.plan__cards-info > *,
+.plan__cards-inclusion > *,
+.plan__cards-description > *{
+    padding: 15px 30px;
 }
 
-.plan__cards td > *{
-   padding: 5px 0;
-}
-
-.plan__cards td ul > *{
-    padding: 15px 0;
- }
-
- .plan__cards tbody td h2 + span{
-    font-weight: 700;
- }
-
-.plan__cards th{
-   border-bottom: 1px solid lightgrey;
-   font-weight: 300;
+.plan__cards:last-child{
+    width: 100%;
+    margin-top: 30px;
 }
 
 .plan__cards .fa-check{
