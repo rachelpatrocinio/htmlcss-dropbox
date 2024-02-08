@@ -29,10 +29,9 @@ body{
     display: flex;
 }
 
-.flex-wrap{
+.flex__wrap{
     flex-wrap: wrap;
 }
-
 
 .flex__column{
     flex-direction: column;
@@ -249,10 +248,18 @@ button{
 
 /* BUSINESS */
 
+.business .row div[class^="col"]{
+    margin-top: 50px;
+}
+
 .business__header{
     width: 100%;
 }
 
 .business__title{
     font-size: 30px;
+}
+
+.business__card-content p{
+    margin-top: 30px;
 }
