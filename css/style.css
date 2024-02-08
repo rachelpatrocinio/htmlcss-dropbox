@@ -68,7 +68,10 @@ body{
 
 .main-header .list-items{
     padding: 0 5px;
+    display: flex;
+    align-items: center;
 }
+
 
 /* BUTTONS */
 
@@ -85,7 +88,6 @@ button{
 
 .hero{
     background-color: #b4d0e7;
-    height: 100vh;
 }
 
 .hero .row{
@@ -96,6 +98,10 @@ button{
     font-size: 80px;
 }
 
-.hero .hero__down-arrow i{
+.hero .hero__content{
+    padding: 50px 0;
+}
+
+.hero .hero__down-arrow{
    margin-top: auto;
 }
