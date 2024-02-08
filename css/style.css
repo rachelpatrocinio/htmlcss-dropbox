@@ -193,3 +193,18 @@ button{
     color: blue;
     text-decoration: underline;
 }
+
+.plan__cards h2 + span{
+    font-weight: 700;
+}
+
+.plan__cards-info{
+    width: 60%;
+}
+
+.plan__cards-btn{
+    width: 40%;
+    padding-top:15px;
+    padding-right: 30px;
+}
+
