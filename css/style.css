@@ -103,7 +103,7 @@ button{
 
 .hero{
     background-color: #b4d0e7;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
 }
 
 .hero .row{
