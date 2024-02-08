@@ -154,8 +154,9 @@ button{
 }
 
 .plan__cards table{
-    width: 100%;
     border: 1px solid lightgrey;
+    height: 100%;
+    display: block;
 }
 
 .plan__cards th,
