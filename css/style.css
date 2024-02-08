@@ -18,14 +18,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-button{
-    border: none;
-}
-
 /* UTILITIES */
 
 .flex{
     display: flex;
+}
+
+.flex__column{
+    flex-direction: column;
+}
+
+.align-start{
+    align-items: flex-start;
 }
 
 .space-between{
@@ -39,11 +43,59 @@ button{
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .container-sm{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+/* HEADER */
+
+.main-header{
+    padding: 15px;
+}
+
+.main-header .list-items{
+    padding: 0 5px;
+}
+
+/* BUTTONS */
+
+button{
+    border: none;
+    color: #ffffff;
+    background-color: #2361ff;
+    padding: 5px;
+}
+
+/* MAIN SECTION */
+
+/* Hero Section*/
+
+.hero{
+    background-color: #b4d0e7;
+    height: 100vh;
+}
+
+.hero .row{
+    padding: 50px 0;
+}
+
+.hero .hero__title{
+    font-size: 80px;
+}
+
+.hero .hero__down-arrow i{
+   margin-top: auto;
 }
