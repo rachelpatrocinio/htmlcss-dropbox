@@ -36,6 +36,10 @@ body{
     justify-content: space-between;
 }
 
+.space-around{
+    justify-content: space-around;
+}
+
 /* LAYOUT */
 
 .container-lg{
@@ -132,7 +136,7 @@ button{
 }
 
 .plan__cards{
-    width: calc(100% / 3);
+    width: 30%;
     padding: 40px 0;
 }
 
