@@ -131,3 +131,13 @@ button{
     margin-right: 50px;
 }
 
+.plan__cards{
+    width: calc(100% / 3);
+    padding: 40px 0;
+}
+
+.plan__cards table{
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
