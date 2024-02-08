@@ -115,7 +115,7 @@ button{
 
 /* MAIN SECTION */
 
-/* Hero Section*/
+/* HERO Section*/
 
 .hero{
     background-color: #b4d0e7;
@@ -151,7 +151,7 @@ button{
     font-size: 50px;
 }
 
-/* Plans Section */
+/* PLANS Section */
 
 .plans__title{
     font-size: 30px;
@@ -225,7 +225,7 @@ button{
     padding-right: 30px;
 }
 
-/* Partner Section */
+/* PARTNER Section */
 
 .partner{
     margin: 100px 0;
@@ -246,10 +246,14 @@ button{
     border: 1px solid black;
 }
 
-/* BUSINESS */
+/* BUSINESS Section */
+
+.business{
+    margin: 100px 0;
+}
 
 .business .row div[class^="col"]{
-    margin-top: 50px;
+    margin: 40px 0;
 }
 
 .business__header{
@@ -263,3 +267,23 @@ button{
 .business__card-content p{
     margin-top: 30px;
 }
+
+/* CLIENTS Section */
+
+.clients{
+    margin: 100px 0; 
+}
+
+.clients__title{
+    font-size: 30px;
+}
+
+.clients__title + span{
+    display: inline-block;
+    margin-top: 30px;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
