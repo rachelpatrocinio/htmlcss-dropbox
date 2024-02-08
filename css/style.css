@@ -17,3 +17,19 @@ img{
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* LAYOUT */
+
+.container-lg{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-sm{
+    width: 70%;
+    margin: 0 auto;
+}
