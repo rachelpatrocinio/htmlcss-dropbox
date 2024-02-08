@@ -84,13 +84,17 @@ body{
     line-height: 30px;
 }
 
+.main-header button{
+    padding: 8px 15px;
+}
+
 /* BUTTONS */
 
 button{
     border: none;
     color: #ffffff;
     background-color: #2361ff;
-    padding: 8px 15px;
+    padding: 15px;
 }
 
 /* MAIN SECTION */
@@ -103,7 +107,7 @@ button{
 }
 
 .hero .row{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 10px;
 }
 
@@ -174,4 +178,9 @@ button{
 .plan__cards th{
    border-bottom: 1px solid lightgrey;
    font-weight: 300;
+}
+
+.plan__button{
+    width: 100%;
+    line-height: 30px;
 }
