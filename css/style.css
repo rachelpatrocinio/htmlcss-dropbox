@@ -239,3 +239,9 @@ button{
     color: black;
     border: 1px solid black;
 }
+
+/* BUSINESS */
+
+.business__title{
+    font-size: 30px;
+}
