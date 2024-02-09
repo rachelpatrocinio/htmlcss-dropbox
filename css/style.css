@@ -41,6 +41,10 @@ body{
     align-items: flex-start;
 }
 
+.align-center{
+    align-items: center;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -90,20 +94,25 @@ body{
 /* HEADER */
 
 .main-header{
-    padding: 15px;
+    background-color: #ffffff;
 }
 
-.main-header .logo{
+.main-header nav .logo{
     display: block;
 }
 
-.main-header .list-items{
-    padding: 0 20px;
-    line-height: 30px;
+.main-header nav{
+    min-width: 80px;
 }
 
-.main-header button{
-    padding: 8px 15px;
+.main-header__menu li > a:not(.logo) {
+	display: block;
+	line-height: 34px;
+	padding: 0 20px;
+}
+
+.main-header__menu li > .logo {
+	padding-right: 20px;
 }
 
 /* FEATURES */
@@ -112,10 +121,9 @@ button{
     border: none;
     color: #ffffff;
     background-color: #2361ff;
-    padding: 15px;
+    line-height: 30px;
+    padding: 0 10px;;
 }
-
-/* MAIN SECTION */
 
 /* HERO Section*/
 
