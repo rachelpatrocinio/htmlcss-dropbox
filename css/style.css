@@ -111,6 +111,7 @@ body{
 
 .main-header{
     background-color: #ffffff;
+    padding: 0 12px
 }
 
 .main-header nav .logo{
@@ -350,4 +351,50 @@ button{
 
 .questions-box li:last-child{
     border-bottom: 1px solid black;
+}
+
+/* FOOTER */
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+}
+
+.main-footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-footer .col{
+    width: calc(100% / 5);
+}
+
+.main-footer .col:last-child{
+    margin-top: 100px;
+    width: 100px;
+}
+
+.main-footer .col:last-child div{
+    padding-top: 30px;
+    border-top: 1px solid white;
+}
+
+.main-footer li h2{
+    margin-bottom: 15px;
+}
+
+.main-footer li{
+    margin: 10px 0;
+}
+
+.main-footer select{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.main-footer .fa-minus{
+    display: block;
+    margin-bottom: 50px;
 }
