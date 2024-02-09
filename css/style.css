@@ -95,6 +95,14 @@ body{
     width: 100%;
 }
 
+.plans,
+.partner,
+.business,
+.clients,
+.companies{
+    margin: 200px 0;
+}
+
 /* HEADER */
 
 .main-header{
@@ -153,11 +161,8 @@ button{
     margin-top: auto;
 }
 
-/* PLANS Section */
 
-.plans{
-    margin: 50px 0;
-}
+/* PLANS Section */
 
 .plans__header > *{
     margin-top: 30px;
@@ -245,10 +250,6 @@ button{
 
 /* PARTNER Section */
 
-.partner{
-    margin: 100px 0;
-}
-
 .partner__description{
     padding: 50px 40px;
 }
@@ -265,10 +266,6 @@ button{
 }
 
 /* BUSINESS Section */
-
-.business{
-    margin: 100px 0;
-}
 
 .business .row div[class^="col"]{
     margin: 40px 0;
