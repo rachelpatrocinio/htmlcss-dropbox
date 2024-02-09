@@ -102,7 +102,6 @@ body{
 .partner,
 .business,
 .clients,
-.companies,
 .questions-box{
     margin: 150px 0;
 }
@@ -306,6 +305,64 @@ button{
 }
 
 /* COMPANIES Section */
+
+.companies div.col-30 div[class^="brand__"]{
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}
+
+.companies .row{
+    display: flex;
+}
+
+.companies img:not(.brand__designit-black>img){
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.companies .brand__designit-black{
+    background-color: #F5F5F5;
+    height: 100%;
+    padding: 20px;
+}
+
+.companies .brand__designit{
+    background-color: #A2D39B;
+}
+
+.companies .brand__arizona{
+    background-color: #61092B;
+}
+
+.companies .brand__florida{
+    background-color: #0093CE;
+}
+
+.companies .brand__topps{
+    background-color: #FF1B1C;
+}
+
+.companies .brand__bicycle{
+    background-color: #D5001F;
+}
+
+.companies .brand__heartscorp{
+    background-color: #B3D0E7;
+}
+
+.companies .brand__lonelyplanet{
+    background-color: #0E2381;
+}
+
+.companies .brand__clearchannel{
+    background-color: #FFD72F;
+}
+
+
 
 /* FREE TRIAL Section */
 
