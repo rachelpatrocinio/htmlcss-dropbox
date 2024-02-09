@@ -165,7 +165,6 @@ button{
     margin-top: auto;
 }
 
-
 /* PLANS Section */
 
 .plans__header > *{
@@ -376,8 +375,6 @@ button{
     background-color: #FFD72F;
 }
 
-
-
 /* FREE TRIAL Section */
 
 .free-trial{
@@ -385,7 +382,7 @@ button{
 }
 
 .free-trial .row{
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .free-trial__title{
@@ -406,7 +403,7 @@ button{
     padding: 20px 0;
 }
 
-.questions-box li{
+.questions-box li:not(:first-child){
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
