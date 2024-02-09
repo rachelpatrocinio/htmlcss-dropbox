@@ -412,8 +412,10 @@ button{
     justify-content: space-between;
 }
 
-.questions-box li i{
-    padding-right: 50px;
+.questions-box li a{
+    width: 10%;
+    text-align: center;
+    display: block;
 }
 
 .questions-box li:not(:first-child){
