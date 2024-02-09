@@ -53,6 +53,10 @@ body{
     justify-content: space-around;
 }
 
+.align__end{
+    align-items: flex-end;
+}
+
 /* LAYOUT */
 
 .container{
@@ -68,7 +72,6 @@ body{
 .container, .container-sm, .container-lg{
     width: 100%;
     margin: 0 auto;
-    padding: 0 12px;
 }
 
 .col-4{
@@ -100,7 +103,7 @@ body{
 .business,
 .clients,
 .companies{
-    margin: 200px 0;
+    margin: 150px 0;
 }
 
 /* HEADER */
@@ -145,7 +148,7 @@ button{
 }
 
 .hero .hero__title{
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .hero .hero__content{
@@ -168,13 +171,13 @@ button{
     margin-top: 30px;
 }
 
-.plans__header .plans__title{
-    font-size: 30px;
-}
-
 .plans__header form > *{
     display: inline-block;
     margin-right: 50px;
+}
+
+.plans__title{
+    font-size: 40px;
 }
 
 .plans__card{
@@ -276,7 +279,7 @@ button{
 }
 
 .business__title{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .business__card-content p{
@@ -290,7 +293,7 @@ button{
 }
 
 .clients__title{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .clients__title + span{
@@ -300,5 +303,25 @@ button{
     text-decoration: underline;
 }
 
+/* COMPANIES Section */
 
+/* FREE TRIAL Section */
 
+.free-trial{
+    background-color: #b4d0e7;
+}
+
+.free-trial .row{
+    padding: 100px 0;
+}
+
+.free-trial__title{
+    font-size: 40px;
+    color: #61092B;
+}
+
+.free-trial button{
+    background-color: #ffffff;
+    color: black;
+    width: 70%;
+}
