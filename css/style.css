@@ -161,12 +161,12 @@ button{
 .plans form > *{
     display: inline-block;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .plan__cards{
     border: 1px solid lightgrey;
     width: 32%;
-    margin-top: 50px;
 }
 
 .plan__cards-title{
