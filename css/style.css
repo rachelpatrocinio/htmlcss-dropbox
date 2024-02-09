@@ -192,7 +192,8 @@ button{
 }
 
 .plans__card > *:not(.plans__card-title){
-    padding: 0 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .plans__body [class^="col"]{
@@ -228,7 +229,7 @@ button{
 }
 
 .plan__cards-description{
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 .plan__cards-description span{
