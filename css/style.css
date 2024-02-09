@@ -196,7 +196,11 @@ button{
 }
 
 .plans__body [class^="col"]{
-    padding: 10px;
+    padding-right: 10px;
+}
+
+.plans__body .col-100{
+    padding-top: 10px;
 }
 
 .plans__card h2 + span{
