@@ -181,15 +181,18 @@ button{
 }
 
 .plans__card{
-    padding: 0 30px;
     height: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid lightgrey; 
 }
 
 .plans__body{
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0;
+}
+
+.plans__card > *:not(.plans__card-title){
+    padding: 0 30px;
 }
 
 .plans__body [class^="col"]{
