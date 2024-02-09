@@ -71,6 +71,10 @@ body{
     padding: 0 12px;
 }
 
+.col-4{
+    width: calc(4 * 100% / 12);
+}
+
 .col-30{
     width: 30%;
 }
@@ -151,76 +155,87 @@ button{
 
 /* PLANS Section */
 
-.plans__title{
-    font-size: 30px;
-    padding: 50px 0;
+.plans{
+    margin: 50px 0;
 }
 
-.plans form > *{
+.plans__header > *{
+    margin-top: 30px;
+}
+
+.plans__header .plans__title{
+    font-size: 30px;
+}
+
+.plans__header form > *{
     display: inline-block;
     margin-right: 50px;
-    margin-bottom: 50px;
 }
 
-.plan__cards{
+.plans__card{
+    padding: 0 30px;
+    height: 100%;
     border: 1px solid lightgrey;
-    width: 32%;
 }
 
-.plan__cards-title{
+.plans__body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.plans__body [class^="col"]{
+    padding: 10px;
+}
+
+.plans__card h2 + span{
+    font-weight: 700;
+}
+
+.plans__card-title{
     text-align: center;
-    padding: 20px;
     border-bottom: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.plans__card > *:not(.plans__card-title){
+    margin-top: 30px;
 }
 
 .plan__cards-info span{
     display: block;
+    margin-top: 10px;
 }
 
-.plan__cards-info > *,
-.plan__cards-inclusion > *,
-.plan__cards-description > *{
-    padding: 15px 30px;
+.plan__cards-inclusion li{
+    margin-top: 10px;
 }
 
-.plan__cards:last-child{
+.plan__cards-button button{
     width: 100%;
-    margin: 30px 0;
 }
 
-.plan__cards .fa-check{
-    color: #2361ff;
+.plan__cards-button span{
+    display: block;
+    margin-top: 20px;
 }
 
-.plan__button{
-    width: 100%;
-    line-height: 30px;
-    margin-bottom: 30px;
-}
-
-.plan__button + span a{
+.plan__cards-button span a{
     color: blue;
     text-decoration: underline;
 }
 
-.plan__buy-btn{
-    display: block;
+.plans__card .fa-check{
+    color: #2361ff;
+}
+
+.plans__body .col-100 .plan__cards-info{
     padding-bottom: 30px;
-    border-bottom: 1px solid lightgrey;
+    width: 70%;
 }
 
-.plan__cards h2 + span{
-    font-weight: 700;
-}
-
-.plan__cards-info{
-    width: 60%;
-}
-
-.plan__cards-btn{
-    width: 40%;
-    padding-top:15px;
-    padding-right: 30px;
+.plans__body .col-100 .plan__cards-button{
+    width: 30%;
 }
 
 /* PARTNER Section */
