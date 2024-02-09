@@ -51,18 +51,20 @@ body{
 
 /* LAYOUT */
 
-.container-lg{
-    width: 100%;
-}
-
 .container{
-    width: 70%;
+    max-width: 1224px;
     margin: 0 auto;
 }
 
 .container-sm{
-    width: 60%;
+    max-width: 1024px;
     margin: 0 auto;
+}
+
+.container, .container-sm, .container-lg{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
 }
 
 .col-30{
