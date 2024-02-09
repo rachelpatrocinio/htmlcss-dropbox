@@ -308,8 +308,8 @@ button{
 
 .companies div.col-30 div[class^="brand__"]{
     width: 50%;
-    height: 200px;
-    padding: 20px;
+    height: 220px;
+    padding: 50px;
 }
 
 .companies .row{
@@ -328,6 +328,15 @@ button{
     background-color: #F5F5F5;
     height: 100%;
     padding: 20px;
+}
+
+.companies .brand__designit-black span{
+    display: block;
+}
+
+.companies .brand__designit-black span,
+.companies .brand__designit-black p{
+    margin-top: 35px;
 }
 
 .companies .brand__designit{
