@@ -153,7 +153,9 @@ button{
 }
 
 .hero .hero__content{
-    margin-top: 50px;
+    position: relative;
+    top: 100px;
+    bottom: -100px;
 }
 
 .hero .hero__description{
@@ -163,6 +165,7 @@ button{
 .hero__down-arrow{
     font-size: 50px;
     margin-top: auto;
+    margin-bottom: 100px;
 }
 
 /* PLANS Section */
