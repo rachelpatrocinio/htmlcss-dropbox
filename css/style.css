@@ -329,6 +329,11 @@ button:hover {
     padding: 50px;
 }
 
+.companies div.col-4:nth-child(2){
+    aspect-ratio: 1 / 1;
+    overflow: scroll;
+}
+
 .companies .row{
     display: flex;
 }
