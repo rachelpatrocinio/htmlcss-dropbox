@@ -447,21 +447,26 @@ button:hover {
 .main-footer .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.main-footer .col{
-    width: calc(100% / 5);
-}
-
-.main-footer .col:last-child{
+.main-footer .row:last-child{
     margin-top: 100px;
-    width: 100px;
 }
 
-.main-footer .col:last-child div{
+.main-footer .row:last-child .language-selection::before{
+    content: "";
+    width: 100px;
+    height: 1px;
+    margin-bottom: 30px;
+    background-color: white;
+    display: block;
+}
+
+/* .main-footer .col:last-child div{
     padding-top: 30px;
     border-top: 1px solid white;
-}
+} */
 
 .main-footer li h2{
     margin-bottom: 15px;
