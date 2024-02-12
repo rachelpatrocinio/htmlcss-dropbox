@@ -331,7 +331,7 @@ button:hover {
 
 .companies div.col-4:nth-child(2){
     aspect-ratio: 1 / 1;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .companies .row{
@@ -350,7 +350,7 @@ button:hover {
     background-color: #F5F5F5;
     height: 100%;
     padding: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .companies .brand__designit-black span{
