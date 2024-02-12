@@ -518,3 +518,7 @@ button:hover {
         transform: translateX(0px);
     }
 }
+
+.filter-shadow:hover{
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+}
