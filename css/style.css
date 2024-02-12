@@ -175,106 +175,111 @@ button:hover {
 
 /* PLANS Section */
 
-.plans__header > *{
+.plan__header > *{
     margin-top: 30px;
 }
 
-.plans__header form > *{
+.plan__header .plans__title{
+    font-size: 40px;
+}
+
+.plan__header form > *{
     display: inline-block;
     margin-right: 50px;
 }
 
-.plans__title{
-    font-size: 40px;
-}
-
-.plans__card{
-    height: 100%;
-    border: 1px solid lightgrey; 
-}
-
-.plans__body{
+.plan__body{
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0;
 }
 
-.plans__card > *:not(.plans__card-title){
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-top: 30px;
-}
-
-.plans__body [class^="col"]{
+.plan__body div[class^="col"]{
     padding-right: 10px;
 }
 
-.plans__body .col-100{
+.plan__body div.col-100{
     padding-top: 10px;
 }
 
-.plans__card h2 + span{
-    font-weight: 700;
+.plan__body .plan__card{
+    height: 100%;
+    border: 1px solid lightgrey; 
 }
 
-.plans__card-title{
+.plan__body .plan__card > *:not(.plan__card-header){
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.plan__card .plan__card-header{
     text-align: center;
     border-bottom: 1px solid lightgrey;
     padding: 20px;
 }
 
-.plan__cards-info span{
+.plan__card .plan__card-body > *{
+    margin: 30px 0;
+}
+
+.plan__card-body .plan__card-info h2 + span{
+    font-weight: 700;
+}
+
+.plan__card-body ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan__card-body span{
     display: block;
-    margin-top: 10px;
 }
 
-.plan__cards-inclusion li,
-.plan__cards-description li{
-    margin: 10px 0;
+.plan__card-body .fa-check{
+    color: #2361ff;
 }
 
-.plan__cards-description{
+.plan__card-body .plan__card-description{
     padding-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.plan__cards-description span{
-    display: block;
+.plan__card-body .plan__card-info,
+.plan__card-body .plan__card-info p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan__card-button button{
+    width: 100%;
     margin-bottom: 40px;
 }
 
-.plan__cards-button::after{
+.plan__card-button:not(.plan__body .col-100 .plan__card-button)::after{
     content: "";
     width: 80px;
     height: 1px;
-    margin-top: 30px;
+    margin: 40px 0;
     background-color: lightgray;
     display: block;
 }
 
-.plan__cards-button button{
-    width: 100%;
-}
-
-.plan__cards-button span{
-    display: block;
-    margin-top: 20px;
-}
-
-.plan__cards-button span a{
+.plan__card-button span a{
     color: blue;
     text-decoration: underline;
 }
 
-.plans__card .fa-check{
-    color: #2361ff;
-}
-
-.plans__body .col-100 .plan__cards-info{
+.plan__body .col-100 .plan__card-info{
     padding-bottom: 30px;
     width: 70%;
 }
 
-.plans__body .col-100 .plan__cards-button{
+.plan__body .col-100 .plan__card-button{
     width: 30%;
 }
 
@@ -293,7 +298,7 @@ button:hover {
     background-color: #ffffff;
     color: black;
     border: 1px solid black;
-}
+} */
 
 /* BUSINESS Section */
 
