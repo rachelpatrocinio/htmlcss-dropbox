@@ -436,7 +436,7 @@ button:hover {
     padding: 20px 0;
 }
 
-.questions-box li:not(:first-child){
+.questions-box li{
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
