@@ -483,12 +483,14 @@ button:hover {
     display: block;
 }
 
-.main-footer li h2{
-    margin-bottom: 15px;
+.main-footer h2{
+    margin-bottom: 20px;
 }
 
-.main-footer li{
-    margin: 10px 0;
+.main-footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .main-footer select{
