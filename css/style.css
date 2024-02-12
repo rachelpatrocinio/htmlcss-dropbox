@@ -323,9 +323,9 @@ button:hover {
 
 /* COMPANIES Section */
 
-.companies div.col-30 div[class^="brand__"]{
+.companies div.col-4:not(:nth-child(2)) div{
     width: 50%;
-    height: 220px;
+    aspect-ratio: 1 / 1;
     padding: 50px;
 }
 
