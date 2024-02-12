@@ -242,6 +242,15 @@ button:hover {
     margin-bottom: 40px;
 }
 
+.plan__cards-button::after{
+    content: "";
+    width: 80px;
+    height: 1px;
+    margin-top: 30px;
+    background-color: lightgray;
+    display: block;
+}
+
 .plan__cards-button button{
     width: 100%;
 }
@@ -468,11 +477,6 @@ button:hover {
     background-color: white;
     display: block;
 }
-
-/* .main-footer .col:last-child div{
-    padding-top: 30px;
-    border-top: 1px solid white;
-} */
 
 .main-footer li h2{
     margin-bottom: 15px;
